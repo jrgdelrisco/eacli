@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eacli"
+version = "0.1.0"
+description = "Lightweight command-line utility for automating and managing frequently used terminal commands."
+readme = "README.md"
+authors = [ { name = "Jorge Del Risco" } ]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+eacli = "eacli.__main__:main"
