@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "print-time",
+      "enabled": true,
+      "description": "Prints the current time"
+    },
+    {
+      "name": "git-commits",
+      "enabled": true,
+      "description": "Shows recent git commits"
+    },
+    {
+      "name": "check-weather",
+      "enabled": false,
+      "description": "Checks the weather"
+    }
+  ]
+}
